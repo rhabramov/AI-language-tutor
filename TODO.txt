@@ -1,0 +1,6 @@
+    - Add a filter to remove all emojis from the AI's reply before it is said aloud
+    - Get the AI prompt better - it should ask better question to engage in conversation. For example, if I say, "I have a sister" it should ask "what are your sister's names?" etc.
+        - It can always fall back to "what did you do this week?"
+    - Get the AI prompt better - it should share things - like "I went for a walk this weekend and saw a dog" or whatever instead of just repeating stuff back
+    - Update the list of allowed words to have all the words from the hebrew textbook + from my flashcards AND their englishe equivalents (e.g., "is" "are" "am"). 
+    - Say that it can only use the present or past tense of verbs, no future or imperative 
