@@ -1,5 +1,18 @@
 # AI-language-tutor
-AI language tutor to help you practice a new language.
+============================================
+An AI‑powered language learning application designed to help users practice and improve language skills through adaptive, interactive experiences.
+
+## 📌 Overview
+============================================
+
+This project explores how modern AI language models can be used to support language learners through:
+
+- Personalized practice
+- Context‑aware feedback
+- Natural conversation simulation
+- Flexible learning workflows
+
+The goal is to make language practice more engaging, accessible, and tailored to individual learners.
 
 
 AI Language Practice App - Quick Setup Guide
@@ -7,7 +20,7 @@ AI Language Practice App - Quick Setup Guide
 
 Dependencies:
 - Node.js (v18+) + npm
-- Ollama + Qwen3:1.7b model (~3GB) (or whichever model you'd like). This laptop only has a CPU w/ 16GB RAM, so chose a small model to practice with. 
+- Ollama + Qwen3:1.7b model (~3GB) (or whichever model you'd like). I built this on a laptop with a CPU w/ 16GB RAM, so chose a small model to practice with. If you'd like to, you can link it up to your API for ChatGPT or Claude or whichever model you'd like for faster responses and a stronger model.
 - DeepL Free API key (500k chars/month)
 - VS Code (optional, recommended)
 
@@ -20,7 +33,7 @@ Verify: node --version && npm --version
 2. Install Ollama
 Windows: https://ollama.com/download -> OllamaInstaller.exe -> Install
 Verify: ollama --version
-Pull model: ollama pull qwen3:1.7b
+Pull model: ollama pull qwen3:1.7b (again - choose whichever model you want)
 Start server: ollama serve (keep running)
 
 3. Get DeepL API Key (FREE)
@@ -36,7 +49,7 @@ LangApp/
 ├── backend/
 │   ├── server.js
 │   ├── data/
-│   │   └── approvedWords.json
+│   │   └── approvedWords.json <- EDIT THIS with the words that you already know in the language, or words you'd like to practice listening to and speaking
 │   └── .env <- CREATE THIS
 └── frontend/
 
@@ -64,7 +77,7 @@ npm start
 Browser opens: http://localhost:3000
 
 How to Use:
-1. Choose language: Spanish / Hebrew / Russian
+1. Choose language: Spanish / Hebrew / Russian <-- NOTE: you can edit the code to add whichever language you'd like. You'll need to edit both the front-end, and the translation service done by DeepL
 2. Adjust speed slider (0.5x slow -> 2.0x fast)
 3. Start Speaking -> Say anything
 4. Send to AI -> Get intelligent reply
@@ -73,9 +86,8 @@ How to Use:
 Features:
 - Real DeepL translation (ES/HE/RU <-> English)
 - Local Qwen3:1.7b (private, remembers conversation)
-- Approved word filtering (simple English)
+- Approved word filtering (words you know in the other language, in English)
 - Speed control (0.5x-2.0x)
-- Conversation memory (6 turns)
 
 Troubleshooting:
 "Cannot find server.js" -> cd backend first
@@ -88,3 +100,20 @@ Share with Friends:
 - They follow steps 1-6 above
 - Works on Windows/Mac (Ollama + Node.js)
 - No accounts needed except DeepL free key
+
+
+## 🤝 Contributing
+
+Contributions, ideas, and feedback are welcome.
+
+1. Fork the repository  
+2. Create a feature branch  
+3. Submit a pull request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
