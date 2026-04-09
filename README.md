@@ -1,9 +1,9 @@
 # AI-language-tutor
-============================================
+
 An AI‑powered language learning application designed to help users practice and improve language skills through adaptive, interactive experiences.
 
-## 📌 Overview
-============================================
+## Overview
+
 
 This project explores how modern AI language models can be used to support language learners through:
 
@@ -15,8 +15,8 @@ This project explores how modern AI language models can be used to support langu
 The goal is to make language practice more engaging, accessible, and tailored to individual learners.
 
 
-AI Language Practice App - Quick Setup Guide
-============================================
+### AI Language Practice App - Quick Setup Guide
+
 
 Dependencies:
 - Node.js (v18+) + npm
@@ -45,15 +45,18 @@ Start server: ollama serve (keep running)
 Download: [LangApp folder]
 Extract to: C:\LangApp\
 Structure:
-LangApp/
-├── backend/
-│   ├── server.js
-│   ├── data/
-│   │   └── approvedWords.json <- EDIT THIS with the words that you already know in the language, or words you'd like to practice listening to and speaking
-│   └── .env <- CREATE THIS
-└── frontend/
+```
+```LangApp/
+```├── backend/
+```│   ├── server.js
+```│   ├── data/
+```│   │   └── approvedWords.json <- EDIT THIS with the words that you already know in the language, or words you'd like to practice listening to and speaking
+```│   └── .env <- CREATE THIS
+```└── frontend/
+```
 
-5. Configure Backend
+
+6. Configure Backend
 cd LangApp\backend
 1. Create .env file:
  ---> DEEPL_API_KEY=your-deepl-key-here:fx
@@ -102,7 +105,7 @@ Share with Friends:
 - No accounts needed except DeepL free key
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, ideas, and feedback are welcome.
 
@@ -112,7 +115,7 @@ Contributions, ideas, and feedback are welcome.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License**.
 
