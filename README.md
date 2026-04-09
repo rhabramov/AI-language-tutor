@@ -1,9 +1,10 @@
 # AI-language-tutor
 
-An AI‑powered language learning application designed to help users practice and improve language skills through adaptive, interactive experiences.
+An AI‑powered language learning app designed to help users practice and improve language skills through adaptive, interactive experiences.
+
+![Language Tutor](/screenshots/frontend_screenshot.png?raw=true)
 
 ## Overview
-
 
 This project explores how modern AI language models can be used to support language learners through:
 
